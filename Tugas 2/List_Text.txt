@@ -1,0 +1,16 @@
+1: Tetap tersenyum hari ini 
+2: Sudahkah bersyukur hari ini?
+3: Jalani hidup dengan bahagia
+4: Tetaplah berada di jalan yang lurus
+5: Sabar, sabar, dan sabar dalam setiap ujian
+6: Hidup itu bagaikan roda yang berputar
+7: Sisihkan harta untuk bersedekah
+8: Besok harus lebih baik daripada hari ini
+9: Jaga kesehatan, pola makan, dan pola tidur
+0: Kendalikan stress
+*: Jangan menjadi perfeksionis dalam suatu jika memang tidak mampu
+#: Jika ada masalah, ungkapkan!
+A: Patuhi protokol kesehatan 
+B: Pakai masker ketika di luar rumah
+C: Cuci tangan dengan air bersih dan sabun
+D: Jaga jarak ketika kontak fisik

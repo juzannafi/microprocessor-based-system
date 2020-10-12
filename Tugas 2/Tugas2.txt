@@ -1,0 +1,11 @@
+Menggunakan sistem minimal arduino, keypad 4x4 atau 3x4, dan komunikasi serial dengan PC, buat suatu rutin, yang membaca keypad, dan menampilkan suatu kalimat di PC, sesuai dengan nomor yang ditekan. 
+
+Kalimat untuk satu nomor, berbeda dengan nomor yang lain. 
+
+Atasi terjadi bouncing pada keypad,sehingga tidak mempengaruhi tampilan di PC.
+
+Submit:
+
+Video working system (submit linknya di ELOK) 
+
+Source code (submit di ELOK

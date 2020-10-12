@@ -1,0 +1,12 @@
+Tugas Hands-on:
+membuat program untuk mengubah :
+- ascii to hex
+- ascii to bin
+- decimal to hex
+- decimal to bin
+
+input: dari PC dan keypad. Keterangan: Anda bisa memberi input dari PC full keyboard(character+numerik) dan dari keypad cukup karakter yg ada di keypad dan numerik, atau anda bisa membuat keypad anda multi-input (bisa numerik dan karakter seperti pada HP lama)
+
+output: di layar PC dan OLED
+
+submit: source code dan link video/video
