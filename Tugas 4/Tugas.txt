@@ -1,0 +1,55 @@
+- Buat program untuk mengukur frekuensi dan duty cycle suatu isyarat menggunakan metode input capture pada timer 1, tampilkan pengukuran pada OLED atau terminal serial
+- Isyarat yang diukur ada 4 macam 
+1) Output timer2, overflow 
+2) Output timer2, clear timer on compare(CTC)
+3) Output timer2, PWM (fast)
+4) Output timer2, PWM (phase correct)
+- Pengukuran frekuensi dan pembangkitan isyarat dituliskan pada source code yang sama, macam isyarat dapat dipilih
+- Frekuensi isyarat bebas (tampilan pengukuran frekuensi dan frekuensi isyarat semestinya menunjukkan angka yang sama)
+- Untuk PWM, duty cycle isyarat dimasukkan lewat input serial terminal
+- Waktu 2 pekan
+
+==========
+Timelines:
+==========
+Senin 16/11: browsing
+Selasa 17/11: interface
+
+===========
+Interfaces:
+===========
+Inputs:
+- Choose mode (1 - 4)
+- Choose prescaler (1 - 5)
+
+Output:
+- frekuensi
+- duty cycle
+
+========
+Keyword:
+========
+Timer1 => T1: PD5
+Input capture => ???
+
+Timer2
+Overflow =>
+CTC => pin fisik: OC
+PWM fast =>
+PWM phase correct =>
+======
+LINKS:
+======
+
+http://www.electronicsblog.net/arduino-frequency-counterduty-cycle-meter/
+https://forum.arduino.cc/index.php?topic=85213.0
+
+https://forum.arduino.cc/index.php?topic=324796.0
+
+https://www.onetransistor.eu/2018/09/how-to-count-frequency-with-arduino.html
+
+https://www.instructables.com/Arduino-Timer-Interrupts/
+https://maker.pro/arduino/projects/timer-interrupts-improve-your-arduino-programming-skills
+
+https://forum.arduino.cc/index.php?topic=53421.0
+https://forum.arduino.cc/index.php?topic=459428.0
