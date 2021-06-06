@@ -1,0 +1,13 @@
+- OLED: countdown (number + color) --> scroll
+- LED: on/off --> connect to OLED
+- ultrasonic + buzzer (object detection)
+
+denger rekaman (evaluasi)
+
+countdown --> OLED
+ |
+ v
+state --> LED
+ |
+ v
+ultrasonic + buzzer
