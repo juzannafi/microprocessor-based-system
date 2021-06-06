@@ -9,37 +9,35 @@
 - Untuk PWM, duty cycle isyarat dimasukkan lewat input serial terminal
 - Waktu 2 pekan
 
-==========
-Timelines:
-==========
-Senin 16/11: browsing
-Selasa 17/11: interface
-
 ===========
 Interfaces:
 ===========
 Inputs:
 - Choose mode (1 - 4)
-- Choose prescaler (1 - 5)
+- Choose prescaler (1 - 7)
 
 Output:
 - frekuensi
 - duty cycle
 
-========
-Keyword:
-========
-Timer1 => T1: PD5
-Input capture => ???
-
-Timer2
-Overflow =>
-CTC => pin fisik: OC
-PWM fast =>
-PWM phase correct =>
 ======
 LINKS:
 ======
+Code Timer1: 
+https://forum.arduino.cc/index.php?topic=566798.0
+
+Freq & Duty Cycle from ICR1 + F_CPU
+https://www.electronicwings.com/avr-atmega/atmega1632-timer-input-capture-mode
+
+Inverting PWM mode
+https://www.avrfreaks.net/forum/generating-pwm-timer2-atmega328p
+
+Set OCR from Duty Cycle PWM mode
+https://www.engineersgarage.com/avr-microcontroller/phase-correct-pwm-pulse-width-modulation-mode-of-avr-microcontroller-timer-part-17-46/
+https://sites.google.com/site/qeewiki/books/avr-guide/pwm-on-the-atmega328
+
+Set OCR from freq PWM mode
+http://riopowerelectronics.blogspot.com/2016/02/membangkitkan-pwm-pulse-width.html
 
 http://www.electronicsblog.net/arduino-frequency-counterduty-cycle-meter/
 https://forum.arduino.cc/index.php?topic=85213.0
@@ -53,3 +51,8 @@ https://maker.pro/arduino/projects/timer-interrupts-improve-your-arduino-program
 
 https://forum.arduino.cc/index.php?topic=53421.0
 https://forum.arduino.cc/index.php?topic=459428.0
+
++++
+https://create.arduino.cc/projecthub/ambhatt/frequency-and-duty-cycle-measurement-using-arduino-1e4896
+
+https://create.arduino.cc/projecthub/boaz/duty-cycle-calculator-and-frequency-meter-f4d763
